@@ -49,9 +49,6 @@ ul {
   justify-content: space-between;
   box-shadow: 1px -1px 8px rgba(255, 255, 255, 0.288);
   backdrop-filter: blur(3px);
-  /* animation-name: colors;
-  animation-duration: 5s;
-  animation-iteration-count: 01;*/
 }
 li a:hover {
   color: rgb(94, 158, 218) 
@@ -100,7 +97,7 @@ li :hover::after {
 .content {
   color: rgb(255, 255, 255);
   width: 500px;
-  /* margin-left  : 170px; */
+  margin-left: 6rem;
 }
 
 .smallWords {
@@ -119,7 +116,6 @@ li :hover::after {
 .btn {
   display: flex;
   align-items: center;
-  /* margin-right: 10em; */
   margin-top: 0.5em;
 }
 
@@ -222,7 +218,7 @@ input:hover {
     align-items: center;
   }
   .content {
-    margin: 0 auto;
+    margin: 0;
     width: 90%;
   }
   .artical {
